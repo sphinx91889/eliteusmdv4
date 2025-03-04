@@ -24,7 +24,7 @@ export default function FeaturedClinicSection() {
             </h3>
             
             <p className="text-primary-dark mb-6">
-              Medical Director Co. assisted Spade Medical Spa in securing a qualified medical director 
+              EliteUSMD assisted Spade Medical Spa in securing a qualified medical director 
               and essential compliance documents when they launched their first location.
             </p>
             

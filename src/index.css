@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #a7b89f;
+  --primary-dark: #96a58e;
+  --primary-light: #b8c7b1;
+  
+  --secondary-color: #cfa286;
+  --secondary-dark: #bc8f73;
+  --secondary-light: #dbb59d;
+  
+  --accent-sage: #e8ede5;
+  --accent-terra: #f5ebe6;
+  
+  --text-dark: #2c3e2e;
+  --text-medium: #5c6b5e;
+}
+
+/* Existing styles... */
+
+/* Add animation for the feminine silhouette */
+.feminine-silhouette {
+  animation: floatSilhouette 8s ease-in-out infinite;
+}
+
+@keyframes floatSilhouette {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+/* Keep your existing styles below... */
